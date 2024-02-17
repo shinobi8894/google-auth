@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import { GoogleOAuthProvider } from '@react-oauth/google';
+import { GoogleLogin } from '@react-oauth/google';
+import jwt_decode from "jwt-decode";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GoogleOAuthProvider clientId="84598120821-8009keevg70lo8fpqbd7cbbfss2553u9.apps.googleusercontent.com">
+        <GoogleLogin
+          onSuccess={credentialResponse => {
+            console.log(jwt_decode(credentialResponse.credential))
+          }}
+          onError={() => {
+            console.log('Login Failed');
+          }}
+        />
+      </GoogleOAuthProvider>
     </div>
   );
 }
