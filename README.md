@@ -14,8 +14,8 @@
   <a href="https://app.daily.dev/Shinobi8894" target="_blank"><img src="https://api.daily.dev/devcards/cd5aaacc9d37450283741dcb3308ca57.png?r=qhg" width="256" align="right" alt="Tadashi Amano's Dev Card"/></a>
 </div>
 
-# Animation Landing Page
-Animation Landing Page using React. You can use it on your project. Let's grow together with Shinobi !
+# Google Auth Button
+Google Auth Button using React. You can use it on your project. Let's grow together with Shinobi !
 
 - Get your google client id
 - Please change your client id
