@@ -22,4 +22,4 @@ Animation Landing Page using React. You can use it on your project. Let's grow t
 
 Please considers it not works on localhost 
 
-![ezgif-3-2141fa1baf](https://github.com/shinobi8894/animation-landing-nextjs/assets/56811611/9bbb3db0-df5c-4811-81d0-592ba7a80309)
+![ezgif-4-6184243313](https://github.com/shinobi8894/google-auth/assets/56811611/98f21a97-8e6a-47ac-bd82-0b3ae7756faa)
